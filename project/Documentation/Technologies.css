@@ -1,0 +1,39 @@
+﻿body{
+
+    margin-left : 30px;
+    margin-right : 30px;
+    background-color : #E0E0E0
+}
+
+
+.header{
+    background-color: orange;
+    color : white;
+    border-color : white;
+    border-radius : 25px;
+    padding-top : 0.5px; 
+    font-family: 'Slabo 27px', serif;
+    font-size : 25px;
+}
+
+.data{
+
+    background-color: #C0C0C0;
+    border-radius  : 20px;
+}
+
+.matter{
+    margin : 10px;
+    font-size : 19px;
+    font-family: 'Slabo 27px', serif;
+}
+
+.matter b ul li{
+
+    font-family: 'Slabo 27px', serif;
+}
+
+.categories{
+
+    font-family: 'Slabo 27px', serif;
+}

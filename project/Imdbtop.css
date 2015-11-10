@@ -1,0 +1,287 @@
+﻿
+html {
+    background-image : url(../images/my_images/bckgimg.jpg);
+     width: 100%;
+}
+
+body{
+
+    margin-top : 30px;
+    margin-left : 150px;
+    margin-right : 50px;
+}
+
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+
+}
+
+li { 
+    display:inline-block;
+
+}
+
+ul  {
+    background: #303030;
+    /*height: 2em;*/
+    width: 100%;
+
+}
+
+.master_navigation  li a:hover {
+background: #E5C100;
+    color: #eee;
+    padding-top: .3em;
+    position: relative;
+    top: -.3em;
+    border-radius: .3em .3em 0 0;
+    border-bottom: .3em solid #E5C100;
+    cursor: pointer; 
+}
+
+
+li a    {
+    display: block;
+    line-height: 2em;
+    padding: 0 1.2em;
+    color: white;
+    text-decoration: none;   }
+
+li .wrapper {
+
+    width: auto;
+    height:auto;
+    background-color : white;
+    border:1.5px solid white;
+    display:inline-block;
+    margin :  5px;
+    padding : 2px; 
+    
+}
+
+
+.current, a:hover.current{  
+    background: #E5C100;
+    color: #eee;
+    padding-top: .3em;
+    position: relative;
+    top: -.3em;
+    border-radius: .3em .3em 0 0;
+    border-bottom: .3em solid #E5C100;
+    cursor: pointer;
+
+}
+
+
+h3 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color: #E5C100;
+    text-decoration: underline;
+}
+
+
+#search{
+  background: #fff url(../images/my_images/remove.gif) no-repeat right -10px center;
+  border-bottom : 8px, solid, white;
+  transition: background 0.4s;
+}
+#search.x  { background-position: right 5px center; } /* (jQ) Show icon */
+#search.onX{ cursor: pointer; }
+
+#search_img{
+  height : 25px;
+  width : 25px;
+  cursor: pointer;
+}
+
+#search {
+    background-color:white;
+    border:0;
+    padding-top : 14px;
+    margin-left : 2px;
+    margin-right : 2px;
+    height : 14px;
+}
+
+.bom{
+
+    margin-top  : 40px;
+    border : solid;
+    border-width : 2px;
+    border-color : #303030;
+    border-radius : 25px;
+    width : 90%
+ }
+
+
+nav{
+    width : 90%;
+}
+
+@media  screen  and (max-width:328px) {
+
+    .bom{
+        width: 80%;
+    }
+}
+
+@media  screen  and (min-width:328px) and (max-width:382px) {
+
+ .master_navigation {
+
+border: 2px solid #000000;
+
+background-color: #303030;
+
+margin: 5px;
+
+padding: 5px;
+}
+
+.master_navigation li {
+list-style: none;
+margin: 5px;
+}
+
+.master_navigation li a {
+
+text-decoration: none;
+
+color: white;
+
+}
+
+.master_navigation  li a:hover {
+text-decoration: underline;
+background: #E5C100;
+color: #eee;
+}
+
+li .wrapper {
+
+    width: 80%;
+    height:auto;
+    background-color : white;
+    border:1.5px solid white;
+    display: inline-block;
+    margin :  5px;
+    padding : 2px; 
+    
+}
+
+li div #search{
+
+    width : 60%;
+}
+
+
+}
+
+@media screen and (min-width : 382px) and (max-width: 658px){
+
+ .master_navigation {
+
+border: 2px solid #000000;
+
+background-color: #303030;
+
+margin: 5px;
+
+padding: 5px;
+}
+
+.master_navigation li {
+list-style: none;
+margin: 5px;
+}
+
+.master_navigation li a {
+
+text-decoration: none;
+
+color: white;
+
+}
+
+.master_navigation  li a:hover {
+text-decoration: underline;
+background: #E5C100;
+color: #eee;
+}
+
+li .wrapper {
+
+    width: 80%;
+    height:auto;
+    background-color : white;
+    border:1.5px solid white;
+    display: inline-block;
+    margin :  5px;
+    padding : 2px; 
+    
+}
+
+li div #search{
+
+    width : 60%;
+}
+
+}
+
+
+@media screen and (min-width : 658px) and (max-width: 1034px) {
+
+    .master_navigation {
+        border: 2px solid #000000;
+        background-color: #303030;
+        margin: 5px;
+        padding: 5px;
+    }
+
+        .master_navigation li {
+            list-style: none;
+            margin: 5px;
+        }
+
+            .master_navigation li a {
+                text-decoration: none;
+                color: white;
+            }
+
+                .master_navigation li a:hover {
+                    text-decoration: underline;
+                    background: #E5C100;
+                    color: #eee;
+                }
+
+    li .wrapper {
+        width: 80%;
+        height: auto;
+        background-color: white;
+        border: 1.5px solid white;
+        display: inline-block;
+        margin: 5px;
+        padding: 2px;
+    }
+
+    li div #search {
+        width: 60%;
+    }
+}
+
+#om{
+
+    clear  : both;
+    
+}
+#mov{
+
+    clear: both;
+}

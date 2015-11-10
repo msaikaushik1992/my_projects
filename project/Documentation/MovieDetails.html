@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="../../project/Documentation/MovieDetails.css" />
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header class="header">
+        <h3>My Movies Documentation</h3>
+    </header>
+
+    <article class="data">
+        <header class="matter">
+            <h2> Details Page</h2>
+        </header>
+
+        <p class="matter">
+            Details page is the most complex page of my project.
+
+        </p>
+
+        <p class="matter">
+            The complete page is divided into four different sections:
+            <ul style="margin-left:25px">
+                <li class="categories">Title</li>
+                <li class="categories">Plot</li>
+                <li class="categories">Rating</li>
+                <li class="categories">Cast</li>
+            </ul>
+
+
+        </p>
+        <p class="matter">
+            To fetch the entire details about the movie , Rotten tomatoes API is used. Movie details like movie poster,
+            movie plot, movie rating and information about cast and crew are displayed
+
+
+        </p>
+        <p class="matter">
+            Whenever the users clicks on a movie on any of the page(except COMING SOON page, which only displays movies
+            
+            which are coming soon), the user gets redirected to Moviedetails page
+            (Referred from Rotten tomatoes API ) and the ID of that movie 
+            gets appended to the url. Now on the details page I am extracting the ID for that movie from URL to populate the results 
+            by making API requests.
+
+        </p>
+
+        <p class="matter">
+            The Title section includes the Poster of movie along with title itself
+        </p>
+        <p class="matter">
+            The Plot section includes the plot of the movie
+        </p>
+        <p class="matter">
+            The Rating section includes the rating of the movie
+        </p>
+        <p class="matter">
+            The last section includes the information of the cast in the form of actors names and their images
+
+        </p>
+        <p class="matter">
+            The jQuery file for Details page is
+            <div>
+                <a href="../../fileview/Default.aspx?~/project/Moviedetailsinfo.js" target="_blank">MovieDetails.js</a>.
+            </div>
+
+          <p class="matter">  It contains all the jQuery code to fetch the details about the movie dynamically. </p>
+        <div class="screenshot">
+            <header class="matter">
+                <h2> Details Page Screen Shot:</h2>
+            </header>
+            <img src="../../images/project_images/Details.png" />
+        </div>
+    </article>
+</body>
+</html>

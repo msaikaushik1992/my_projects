@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Search Functionality</title>
+    <link rel="stylesheet" href="../Documentation/MovieSearch.css" />
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header class="header">
+        <h3>My Movies Documentation</h3>
+    </header>
+    <article class="data">
+        <header class="matter">
+            <h2> Search Page</h2>
+        </header>
+        <p class="matter">
+            Search functionality is one of the critical functionality supported by my website.
+        </p>
+        <p class="matter">
+            Suppose the user wants to see the details of a particular movie, then he/she just inputs the name
+            of that movie in the search box and hits enter or clicks on the "search" button image. The searchbox
+            which is used for input of search query is an HTML5 search element with placeholder containing
+            information and it also displays the cancel "X" icon so that the user doesn't have to remove the
+            wrong input character by character.
+        </p>
+
+        <p class="matter">
+            When the user hits the enter key or clicks on the "search" button image, then an ajax request is
+            performed to the API. Based on the results that I get from the API, I am generating the
+            movie items UI dynamically and then appending that to the Home page's UI.
+        </p>
+        <p class="matter">
+            On the search page also, the basic movie information like movie image and its title are displayed.
+        </p>
+
+        <p class="matter">
+            The jQuery file for search page is
+            <a href="../../fileview/Default.aspx?~/project/Home.js" target="_blank">Home.js</a>.
+            It contains all the jQuery code to fetch and display the results based on the search query.
+        </p>
+        <div class="screenshot">
+            <header class="matter">
+                <h2> Search Page Screen Shot:</h2>
+            </header>
+            <img src="../../images/project_images/Search.png" />
+        </div>
+    </article>
+</body>
+</html>
